@@ -1,5 +1,5 @@
 body {
-  background-image: url(stars-background.png);
+  background-image: url(grid_background.png);
   color: #fff;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -9,26 +9,26 @@ body {
 
 .heading {
   text-align: center;
-  color: #fff;
+  color: gray;
 }
 
 .heading6 {
-  color: #fff;
+  color: gray;
   text-align: left;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
-  color: #fff;
+  color: gray;
 }
 
 pre {
   background-color: #eee;
   padding: 10px;
   font-size: 14px;
-  color: #fff;
+  color: gray;
 }
 
 a {
@@ -59,6 +59,7 @@ div {
 
 #notice {
   color: green;
+  font-size: 16px;
 }
 
 .field_with_errors {
@@ -73,6 +74,7 @@ div {
   padding: 7px 7px 0;
   margin-bottom: 20px;
   background-color: #f0f0f0;
+  font-size: 16px;
 
   h2 {
     text-align: left;
@@ -87,7 +89,7 @@ div {
   ul li {
     font-size: 14px;
     list-style: square;
-    color: #fff;
+    color: gray;
   }
 }
 
